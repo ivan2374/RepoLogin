@@ -1,26 +1,90 @@
+
 .form {
+
     height: 500px;
     width: 1000px;
-}
-
-.icon {
-    height: 100px;
-    width: 100px;
 }
 
 .container{
 
-    height: 500px;
+    height: 965px;
     width: 1000px;
     
-    
-
 }
 
 body{
 
+    position: relative;
     background: url(Asset/ondas.svg);
-    background-size: cover;
+    background-position: 1% 110%;
     background-color: #22193F;
+    background-repeat: no-repeat;
     
 }
+
+.title{
+
+    position: relative;
+    top: 15%;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 25px;
+    font-size: 28px;
+    color: #22193F;
+
+}
+
+.linkolvi{
+   
+    position: relative;
+    top: 20%;
+    left: 43%;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #E21982;
+
+}
+
+.form-control{
+
+    position: relative; 
+    border-radius: 60px;
+    width: 420px;
+    margin-left: 25px;
+    font-family:'Nunito', sans-serif; 
+    font-size: 16px;
+    border-color: #C4C4C4;
+    padding-left: 32px;
+    
+}
+
+.btn{
+
+    position: relative;
+    top:40%;
+    width: 420px;
+    margin-left: 25px;
+    border-radius: 60px;
+    background-color: #E21982;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+.btn:hover{
+
+    background-color: #8177ad;
+
+}
+
+.bi{
+    position: relative;
+    top: 24%;
+    left: 7%;
+    z-index: 1;
+    color: #6A2A83;
+    padding-left: 5px;
+    
+}
+
