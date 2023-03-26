@@ -19,103 +19,82 @@
 }
 
 
+.bg {
 
+    background-image: url(Asset/img-login.jpg);
+    background-size: cover;
+    background-position: center center;
+   
 
+}
 
-body{
+body {
 
     background-image: url(Asset/ondas.svg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
     background-color:#22193F;
-    background-position: 0px 205px;
+    background-position-y: 480px;
+    background-size: cover;
     
 }
-.form {
-
-    height: 500px;
-    width: 1000px;
-}
-
-.container{
-
-    height: 965px;
-    width: 1000px;
-    
-}
-
-
 
 .title{
 
-    position: relative;
-    top: 15%;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-style: bold;
-    margin-left: 25px;
     font-size: 28px;
     color: #22193F;
 
 }
 
-.linkolvi{
-   
-    position: relative;
-    top: 20%;
-    left: 43%;
+.link {
+
     font-family: 'Nunito-bold', sans-serif;
     font-weight: bold;
-    margin-left: 25px;
     font-size: 16px;
     color: #E21982;
-
 }
 
-.form-control{
+.btn {
 
-    position: relative; 
-    border-radius: 60px;
-    width: 420px;
-    margin-left: 25px;
-    font-family:'Nunito-regular', sans-serif; 
-    font-weight: normal;
-    font-size: 16px;
-    border-color: #C4C4C4;
-    padding-left: 32px;
-    
-}
-
-.btn{
-
-    font-family: 'Nunito-bold', sans-serif;
-    font-weight: bold;
+    font-family: 'Nunito-regular', sans-serif;
     position: relative;
-    top:40%;
-    width: 420px;
-    margin-left: 25px;
-    border-radius: 60px;
     background-color: #E21982;
-    color: white;
     font-size: 16px;
-    padding: 10px;
-    
+
 }
 
 .btn:hover{
 
-    background-color: #8177ad;
+    background-color: #6A2A83;
 
 }
 
-.bi{
+.admin {
+
     position: relative;
-    top: 24%;
-    left: 7%;
-    z-index: 1;
+    top: 220px;
+    height: 70px;
+}
+
+.bi {
+
+    position: relative;
+    top: -32px;
     color: #6A2A83;
-    padding-left: 5px;
+}
+
+.form-control{
+
+    border-color: #C4C4C4;
     
 }
+
+.row {
+
+    position: relative;
+    top: 206px;
+     
+}
+
 
